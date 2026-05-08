@@ -7,7 +7,7 @@ import { MaterialIcons, FontAwesome, Octicons, Ionicons } from '@expo/vector-ico
 type IconComponent = React.ComponentType<React.ComponentProps<typeof MaterialIcons>> |
     React.ComponentType<React.ComponentProps<typeof FontAwesome>> |
     React.ComponentType<React.ComponentProps<typeof Octicons>> |
-     React.ComponentType<React.ComponentProps<typeof Ionicons>>
+    React.ComponentType<React.ComponentProps<typeof Ionicons>>
 
 type Props = TextInputProps & {
     iconLeft?: IconComponent,
